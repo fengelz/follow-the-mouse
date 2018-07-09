@@ -1,0 +1,35 @@
+.Cloud {
+  width: 30vw;
+  height: 20vh;
+  position: relative;
+  opacity: 0.5;
+}
+.Cloud span {
+    width: 50%;
+    height: 50%;
+    background-color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.Cloud span:nth-child(1) {
+    left: 0;
+    top: 20%;
+}
+.Cloud span:nth-child(2) {
+    left: 20%;
+    top: 35%;
+}
+.Cloud span:nth-child(3) {
+    right: 10%;
+    top: 20%;
+}
+.Cloud span:nth-child(4) {
+    left: 30%;
+    top: 0%;
+}
+.Cloud span:nth-child(5) {
+    left: 5%;
+    top: 5%;
+}

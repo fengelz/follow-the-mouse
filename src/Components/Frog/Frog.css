@@ -1,0 +1,16 @@
+.Frog {
+    width: 50vw;
+    height: 25vw;
+    position: absolute;
+    bottom: calc((25vw / 2) * -1);
+    left: calc(50% - (50vw / 2))
+}
+
+.Frog .Eye {
+    top: -10%;
+    left: 20%;
+}
+.Frog .Eye:nth-child(2){
+    left: auto;
+    right: 20%;
+}

@@ -1,0 +1,28 @@
+.Eye {
+    background: forestgreen;
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    transform: scale(1.5, 1)
+}
+
+.Eye div {
+    width: 80% ;
+    height: 80%;
+    background-color: whitesmoke;
+    border-radius: inherit;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.Eye div span {
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    background-color:black;
+    border-radius: inherit;
+    left: 35%;
+}
