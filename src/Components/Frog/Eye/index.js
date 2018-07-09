@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
+import Compass from 'react-coord-compass';
 
-import Compass from '../../Compass'
 import './Eye.css';
 
 class Eye extends Component {
