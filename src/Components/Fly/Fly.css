@@ -1,0 +1,30 @@
+.Fly {
+    width: 2rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: calc(150% - 1rem);
+    left: calc(150% - 1rem);
+}
+
+.Fly:before, .Fly:after {
+    content: "";
+    width: 1.5rem;
+    height: .75rem;
+    background: white;
+    opacity: .6;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+}
+.Fly:before {
+    top:-50%;
+    left: 20%;
+    transform: rotate(-45deg);
+}
+.Fly:after {
+    bottom:-50%;
+    left: 20%;
+    transform: rotate(45deg);
+}
