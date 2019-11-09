@@ -8,3 +8,6 @@ html, body, #root {
   height: calc(100vh - (100vh - 100%));
   overflow: hidden;
 }
+#root {
+  position: relative;
+}
