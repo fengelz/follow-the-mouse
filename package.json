@@ -6,7 +6,7 @@
     "is-mobile": "^1.0.0",
     "react": "^16.4.1",
     "react-coord-compass": "^1.0.0",
-    "react-dom": "^16.4.1",
+    "react-dom": "^16.4.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
